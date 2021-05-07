@@ -1,12 +1,12 @@
 .list-group {
-  min-height: 100vh;
+  height: calc(100vh - 56px);
   overflow: hidden;
   padding: 1rem;
 }
 
 .list-group-item {
   cursor: pointer;
-  min-height: 13vh;
+  min-height: 12.5vh;
 }
 
 .list-group-item:active {
