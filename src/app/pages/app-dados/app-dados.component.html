@@ -1,1 +1,22 @@
-<p>app-dados works!</p>
+<div class="jumbutron text-center">
+  <button class="btn btn-success btn-lg mb-2 mt-1" (click)="rollDice()">
+    Tirar Dados
+  </button>
+  <br />
+  <img
+    class="img animate__animated animate__bounce"
+    [src]="diceLeft"
+    alt="dados"
+    loading="lazy"
+  />
+  <img
+    class="img animate__animated animate__bounce"
+    [src]="direRight"
+    alt="dados"
+    loading="lazy"
+  />
+
+  <h1 *ngIf="number1 === number2">
+    <span class="badge bg-success">¡Ganaste!</span>
+  </h1>
+</div>
