@@ -4,13 +4,19 @@
   </button>
   <br />
   <img
-    class="img animate__animated animate__bounce"
+    class="img"
+    [ngClass]="{
+      'animate__animated animate__bounce': number1 === number2
+    }"
     [src]="diceLeft"
     alt="dados"
     loading="lazy"
   />
   <img
-    class="img animate__animated animate__bounce"
+    class="img"
+    [ngClass]="{
+      'animate__animated animate__bounce': number1 === number2
+    }"
     [src]="direRight"
     alt="dados"
     loading="lazy"

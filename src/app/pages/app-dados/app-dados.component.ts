@@ -18,7 +18,7 @@ export class AppDadosComponent {
     this.direRight = `../../../assets/img/dice${this.number2}.png`;
   }
 
-  round() {
+  round(): number {
     return Math.round(Math.random() * 5) + 1;
   }
 }

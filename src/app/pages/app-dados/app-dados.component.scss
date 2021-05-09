@@ -3,7 +3,7 @@
   margin-bottom: 2rem;
   background-color: #e9ecef;
   border-radius: 0.3rem;
-  min-height: 95vh;
+  height: 95vh;
   overflow: hidden;
 }
 
@@ -13,4 +13,10 @@
   height: 200px;
   margin: 1.5rem;
   width: 200px;
+}
+@media (max-width: 400px) {
+  .img {
+    height: 150px;
+    width: 150px;
+  }
 }
